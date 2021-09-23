@@ -1,0 +1,35 @@
+h1{
+    color:orange;
+    border: double;
+    border-Color: black;
+}   
+
+h2{
+  color: purple;
+  border: outset;
+  font-family: comic sans ms;
+}
+
+.topics{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border: groove;
+      }  
+      
+.tags , .info{
+        border: dotted;
+      }   
+
+.hp{
+  display: flex;
+  justify-content: flex-end;
+}
+
+body{
+  background-color: #FEDCBA;
+}
+
+.header{
+  background-color: purple;
+}
